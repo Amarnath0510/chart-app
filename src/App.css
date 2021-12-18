@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  margin: 10px;
+  margin-right:100px;
+   display:flex; 
+  
 }
 
 .App-logo {
@@ -35,4 +39,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+.Card{
+  width: 250px;
+  height: 90px;
+  margin-left: 100px;
+}
+.earn{
+  color: royalblue;
+  font-size: 12px;
+
+}
+.earn-container{
+  margin: 0px;
+}
+body{
+  background-color:whitesmoke;
+}
+.earn1{
+  color: royalblue;
+  font-size: 12px;
+}
+.earn2{
+  color: royalblue;
+  font-size: 12px;
+}
+.earn3{
+  color: royalblue;
+  font-size: 12px;
+}
+.money{
+position: relative;
+font-size: large;
+top:50px;
+right: 700px;
+color:hsl(49, 71%, 57%);
+}
+.date{
+position: relative;
+right:1070px;
+top:48px;
+color: wheat;
+}
+.assignment{
+  position: relative;
+  right:430px;
+  top:50px;
+  color:aqua;
+  
+}
+.chat{
+  position: relative;
+  right:110px;
+  top:50px;
+  color: teal;
+  display: block;
+}
+.Card1{
+  margin:40px;
+  height:400px;
+  width:400px;
 }
